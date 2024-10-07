@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: white;
+    margin: 0;
+}
+/* Header Section */
+.header {
+    width: 100%;
+    background-color: #1b2735; /* Dark background color */
+    padding: 10px 20px;
+    display: block; /* Ensures header isn't affected by flexbox in body */
+    text-align: center;
+    
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between links */
+}
+
+.header .nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #000000;
+    margin-top: 25px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    float: none;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.post-styling {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #848691;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #1b2735;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+}

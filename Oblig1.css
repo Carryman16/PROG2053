@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    margin: 0;
+}
+
+/* Header Section */
+.header {
+    width: 100%;
+    background-color: #1b2735; /* Dark background color */
+    padding: 10px 20px;
+    display: block; /* Ensures header isn't affected by flexbox in body */
+    text-align: center;
+    
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between links */
+    
+}
+
+.header .nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #6c757d;
+    margin-top: 25px;
+}
+
+/* Top Section with Dark Background */
+.section1 {
+    background-color: #1b2735; /* Dark background color */
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between; 
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 30%;
+}
+
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.sign-up-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Image Placeholder */
+.image-placeholder {
+    background-color: #6c757d;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+/* Section 2 - with White Background */
+.section2 {
+    background-color: white;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 h1 {
+    grid-column: 1 / -1;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+/* Left and Right Boxes */
+.boksL {
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    margin: 20px auto;
+    border: 5px solid #2f75b3;
+}
+
+.tekstboksL {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.boksR {
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    margin: 20px auto;
+    border: 5px solid #2f75b3;
+}
+
+.tekstboksR {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+/* Quote Section */
+.section3 {
+    background-color: #aaaaaa;
+    color: black;
+    text-align: center;
+    max-height: 350px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: x-large;
+    font-style: italic;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.quote-forfatter p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Section 4 */
+.section4 {
+    background-color: rgb(59, 174, 250);
+    color: white;
+    width: 750px;
+    height: 100px;
+    margin: 20px auto;
+    border: 1px solid #2f75b3;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 40% 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Sign-up-2 {
+    background-color: #007bff;
+    color: white;
+    padding: 7px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Sign-up-2:hover {
+    background-color: #0056b3;
+}
+
+.text {
+    width: fit-content;
+}
+
+.text p {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #1b2735;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+}
